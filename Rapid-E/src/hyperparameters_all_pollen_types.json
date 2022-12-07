@@ -1,0 +1,18 @@
+{
+  "experiment_name": "All Pollen Types",
+  "dataset_meta_json_path": "/home/guest/coderepos/transfer_learning/Rapid-E/meta_jsons/00000_train.pt",
+  "num_of_epochs" : 10,
+  "learning_rate" : 0.1,
+  "optimizer" : "SGD",
+  "gpu": true,
+  "num_of_gpus" : 4,
+  "loss_type": "WeightedCrossEntropy",
+  "dropout_rate" : 0.5,
+  "num_of_folds": 1,
+  "train_batch_size": 20800,
+  "valid_batch_size": 5200,
+  "num_workers": 50,
+  "num_trials": 20,
+  "num_of_classes" : 26,
+  "metrics": ["Accuracy", "Precision", "Recall"]
+}

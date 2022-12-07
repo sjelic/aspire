@@ -1,0 +1,11 @@
+{
+"lr": [0.1, 0.001],
+"weight_decay" : [1.0,0.01],
+"momentum": [0.9],
+"max_iter": [30],
+"drop_out" : [0.5],
+"l1": [0.0],
+"l2": [0.0],
+"num_of_epochs" : [5],
+"optimizer": ["adam"]
+}
